@@ -27,7 +27,7 @@ abstract class baseModel
         $this->offset   = '';
         $this->fields   = '';
         $this->values   = '';
-        $this->join   = '';
+        $this->join     = '';
         $this->set      = '';
     }
 
@@ -39,7 +39,7 @@ abstract class baseModel
         $this->group_by = '';
         $this->limit    = '';
         $this->offset   = '';
-        $this->join   = '';
+        $this->join     = '';
         $this->set      = '';
         return $this;
     }
